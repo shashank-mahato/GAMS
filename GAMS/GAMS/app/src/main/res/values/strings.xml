@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GAMS</string>
+    <string name="enter_your_phonenumber">Enter your PhoneNumber</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify">verify</string>
+
+
+    <string name="app_names">Dropdown</string>
+    <string-array name="type">
+        <item>School</item>
+        <item>University</item>
+        <item>Regional Office</item>
+        <item>ROE</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>TamilNadu</item>
+        <item>Karnataka</item>
+        <item>AndhraPradesh</item>
+        <item>Kerala</item>
+    </string-array>
+
+    <string-array name="district">
+        <item>Chennai</item>
+        <item>Bangalore</item>
+        <item>Thiruvallur</item>
+        <item>Mumbai</item>
+    </string-array>
+
+    <string-array name="organization">
+        <item>Public</item>
+        <item>Private</item>
+
+    </string-array>
+</resources>

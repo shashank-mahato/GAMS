@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buildingDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        tools:context=".buildingDetails">
+
+
+        <EditText
+            android:id="@+id/class_rooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="No of classrooms "
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noOfFaculties" />
+
+        <EditText
+            android:id="@+id/toilet_boys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="No of toilets for boys"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toilet_girls" />
+
+        <EditText
+            android:id="@+id/udise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:hint="UDISE"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="104dp"
+            android:ems="10"
+            android:hint="Year of establishment"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/udise" />
+
+        <EditText
+            android:id="@+id/area_acres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="120dp"
+            android:ems="10"
+            android:hint="Total area occupied"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/year" />
+
+        <EditText
+            android:id="@+id/toilet_girls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:ems="10"
+            android:hint="No of toilets for girls"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/class_rooms" />
+
+        <EditText
+            android:id="@+id/labs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="120dp"
+            android:ems="10"
+            android:hint="No of Laboratories"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/area_acres" />
+
+        <EditText
+            android:id="@+id/noOfFaculties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="104dp"
+            android:ems="10"
+            android:hint="No of Faculties"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labs" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="28dp"
+            android:text="Upload"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playground_area" />
+
+        <Button
+            android:id="@+id/reci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:text="recieve"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="296dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text=" Building details of School"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/textv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="104dp"
+            android:ems="10"
+
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toilet_boys" />
+
+        <EditText
+            android:id="@+id/resident_stud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="84dp"
+            android:ems="10"
+            android:hint="Resident for students(acres)"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textv" />
+
+        <EditText
+            android:id="@+id/resident_staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Resident for staff(acre)"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resident_stud" />
+
+        <EditText
+            android:id="@+id/playground_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Playground(acres)"
+            android:inputType="number"
+            android:text=""
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resident_staff" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

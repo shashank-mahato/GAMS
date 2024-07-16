@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411106693961",
+    "project_id": "gams-f96ba",
+    "storage_bucket": "gams-f96ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411106693961:android:4a4c24082c65739b26c098",
+        "android_client_info": {
+          "package_name": "com.example.gams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411106693961-svj8lafr2q2qkdplj2rtuecpo02oo9cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfnkUUhEed1cLqJwzVfJyEcHnp8cT6x7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411106693961-svj8lafr2q2qkdplj2rtuecpo02oo9cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
